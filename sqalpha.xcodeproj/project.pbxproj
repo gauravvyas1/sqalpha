@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F40FF5DE2CD9E8BB00FC2BD4 /* sqalphaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40FF5DD2CD9E8BB00FC2BD4 /* sqalphaApp.swift */; };
+		F40FF5E02CD9E8BB00FC2BD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40FF5DF2CD9E8BB00FC2BD4 /* ContentView.swift */; };
+		F40FF5E22CD9E8BF00FC2BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40FF5E12CD9E8BF00FC2BD4 /* Assets.xcassets */; };
+		F40FF5E52CD9E8BF00FC2BD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40FF5E42CD9E8BF00FC2BD4 /* Preview Assets.xcassets */; };
+		F40FF5EF2CD9E8C000FC2BD4 /* sqalphaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40FF5EE2CD9E8C000FC2BD4 /* sqalphaTests.swift */; };
+		F40FF5F92CD9E8C000FC2BD4 /* sqalphaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40FF5F82CD9E8C000FC2BD4 /* sqalphaUITests.swift */; };
+		F40FF5FB2CD9E8C000FC2BD4 /* sqalphaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40FF5FA2CD9E8C000FC2BD4 /* sqalphaUITestsLaunchTests.swift */; };
+		F40FF6092CD9EB0600FC2BD4 /* Silkscreen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F40FF6072CD9EB0500FC2BD4 /* Silkscreen-Bold.ttf */; };
+		F40FF60A2CD9EB0600FC2BD4 /* Silkscreen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F40FF6082CD9EB0600FC2BD4 /* Silkscreen-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F40FF5EB2CD9E8C000FC2BD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40FF5D22CD9E8BB00FC2BD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40FF5D92CD9E8BB00FC2BD4;
+			remoteInfo = sqalpha;
+		};
+		F40FF5F52CD9E8C000FC2BD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40FF5D22CD9E8BB00FC2BD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40FF5D92CD9E8BB00FC2BD4;
+			remoteInfo = sqalpha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F40FF5DA2CD9E8BB00FC2BD4 /* sqalpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sqalpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40FF5DD2CD9E8BB00FC2BD4 /* sqalphaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqalphaApp.swift; sourceTree = "<group>"; };
+		F40FF5DF2CD9E8BB00FC2BD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F40FF5E12CD9E8BF00FC2BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F40FF5E42CD9E8BF00FC2BD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F40FF5EA2CD9E8C000FC2BD4 /* sqalphaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sqalphaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40FF5EE2CD9E8C000FC2BD4 /* sqalphaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqalphaTests.swift; sourceTree = "<group>"; };
+		F40FF5F42CD9E8C000FC2BD4 /* sqalphaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sqalphaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40FF5F82CD9E8C000FC2BD4 /* sqalphaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqalphaUITests.swift; sourceTree = "<group>"; };
+		F40FF5FA2CD9E8C000FC2BD4 /* sqalphaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqalphaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F40FF6072CD9EB0500FC2BD4 /* Silkscreen-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Silkscreen-Bold.ttf"; sourceTree = "<group>"; };
+		F40FF6082CD9EB0600FC2BD4 /* Silkscreen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Silkscreen-Regular.ttf"; sourceTree = "<group>"; };
+		F40FF60B2CD9EC7D00FC2BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F43DE34E2CDA3BE70042177C /* sqalpha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sqalpha.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F40FF5D72CD9E8BB00FC2BD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40FF5E72CD9E8C000FC2BD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40FF5F12CD9E8C000FC2BD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F40FF5D12CD9E8BB00FC2BD4 = {
+			isa = PBXGroup;
+			children = (
+				F40FF5DC2CD9E8BB00FC2BD4 /* sqalpha */,
+				F40FF5ED2CD9E8C000FC2BD4 /* sqalphaTests */,
+				F40FF5F72CD9E8C000FC2BD4 /* sqalphaUITests */,
+				F40FF5DB2CD9E8BB00FC2BD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F40FF5DB2CD9E8BB00FC2BD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F40FF5DA2CD9E8BB00FC2BD4 /* sqalpha.app */,
+				F40FF5EA2CD9E8C000FC2BD4 /* sqalphaTests.xctest */,
+				F40FF5F42CD9E8C000FC2BD4 /* sqalphaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40FF5DC2CD9E8BB00FC2BD4 /* sqalpha */ = {
+			isa = PBXGroup;
+			children = (
+				F43DE34E2CDA3BE70042177C /* sqalpha.entitlements */,
+				F40FF60B2CD9EC7D00FC2BD4 /* Info.plist */,
+				F40FF6072CD9EB0500FC2BD4 /* Silkscreen-Bold.ttf */,
+				F40FF6082CD9EB0600FC2BD4 /* Silkscreen-Regular.ttf */,
+				F40FF5DD2CD9E8BB00FC2BD4 /* sqalphaApp.swift */,
+				F40FF5DF2CD9E8BB00FC2BD4 /* ContentView.swift */,
+				F40FF5E12CD9E8BF00FC2BD4 /* Assets.xcassets */,
+				F40FF5E32CD9E8BF00FC2BD4 /* Preview Content */,
+			);
+			path = sqalpha;
+			sourceTree = "<group>";
+		};
+		F40FF5E32CD9E8BF00FC2BD4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F40FF5E42CD9E8BF00FC2BD4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F40FF5ED2CD9E8C000FC2BD4 /* sqalphaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F40FF5EE2CD9E8C000FC2BD4 /* sqalphaTests.swift */,
+			);
+			path = sqalphaTests;
+			sourceTree = "<group>";
+		};
+		F40FF5F72CD9E8C000FC2BD4 /* sqalphaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F40FF5F82CD9E8C000FC2BD4 /* sqalphaUITests.swift */,
+				F40FF5FA2CD9E8C000FC2BD4 /* sqalphaUITestsLaunchTests.swift */,
+			);
+			path = sqalphaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F40FF5D92CD9E8BB00FC2BD4 /* sqalpha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40FF5FE2CD9E8C000FC2BD4 /* Build configuration list for PBXNativeTarget "sqalpha" */;
+			buildPhases = (
+				F40FF5D62CD9E8BB00FC2BD4 /* Sources */,
+				F40FF5D72CD9E8BB00FC2BD4 /* Frameworks */,
+				F40FF5D82CD9E8BB00FC2BD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sqalpha;
+			productName = sqalpha;
+			productReference = F40FF5DA2CD9E8BB00FC2BD4 /* sqalpha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F40FF5E92CD9E8C000FC2BD4 /* sqalphaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40FF6012CD9E8C000FC2BD4 /* Build configuration list for PBXNativeTarget "sqalphaTests" */;
+			buildPhases = (
+				F40FF5E62CD9E8C000FC2BD4 /* Sources */,
+				F40FF5E72CD9E8C000FC2BD4 /* Frameworks */,
+				F40FF5E82CD9E8C000FC2BD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40FF5EC2CD9E8C000FC2BD4 /* PBXTargetDependency */,
+			);
+			name = sqalphaTests;
+			productName = sqalphaTests;
+			productReference = F40FF5EA2CD9E8C000FC2BD4 /* sqalphaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F40FF5F32CD9E8C000FC2BD4 /* sqalphaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40FF6042CD9E8C000FC2BD4 /* Build configuration list for PBXNativeTarget "sqalphaUITests" */;
+			buildPhases = (
+				F40FF5F02CD9E8C000FC2BD4 /* Sources */,
+				F40FF5F12CD9E8C000FC2BD4 /* Frameworks */,
+				F40FF5F22CD9E8C000FC2BD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40FF5F62CD9E8C000FC2BD4 /* PBXTargetDependency */,
+			);
+			name = sqalphaUITests;
+			productName = sqalphaUITests;
+			productReference = F40FF5F42CD9E8C000FC2BD4 /* sqalphaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F40FF5D22CD9E8BB00FC2BD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F40FF5D92CD9E8BB00FC2BD4 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F40FF5E92CD9E8C000FC2BD4 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F40FF5D92CD9E8BB00FC2BD4;
+					};
+					F40FF5F32CD9E8C000FC2BD4 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F40FF5D92CD9E8BB00FC2BD4;
+					};
+				};
+			};
+			buildConfigurationList = F40FF5D52CD9E8BB00FC2BD4 /* Build configuration list for PBXProject "sqalpha" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F40FF5D12CD9E8BB00FC2BD4;
+			productRefGroup = F40FF5DB2CD9E8BB00FC2BD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F40FF5D92CD9E8BB00FC2BD4 /* sqalpha */,
+				F40FF5E92CD9E8C000FC2BD4 /* sqalphaTests */,
+				F40FF5F32CD9E8C000FC2BD4 /* sqalphaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F40FF5D82CD9E8BB00FC2BD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40FF60A2CD9EB0600FC2BD4 /* Silkscreen-Regular.ttf in Resources */,
+				F40FF5E52CD9E8BF00FC2BD4 /* Preview Assets.xcassets in Resources */,
+				F40FF6092CD9EB0600FC2BD4 /* Silkscreen-Bold.ttf in Resources */,
+				F40FF5E22CD9E8BF00FC2BD4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40FF5E82CD9E8C000FC2BD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40FF5F22CD9E8C000FC2BD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F40FF5D62CD9E8BB00FC2BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40FF5E02CD9E8BB00FC2BD4 /* ContentView.swift in Sources */,
+				F40FF5DE2CD9E8BB00FC2BD4 /* sqalphaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40FF5E62CD9E8C000FC2BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40FF5EF2CD9E8C000FC2BD4 /* sqalphaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40FF5F02CD9E8C000FC2BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40FF5F92CD9E8C000FC2BD4 /* sqalphaUITests.swift in Sources */,
+				F40FF5FB2CD9E8C000FC2BD4 /* sqalphaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F40FF5EC2CD9E8C000FC2BD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40FF5D92CD9E8BB00FC2BD4 /* sqalpha */;
+			targetProxy = F40FF5EB2CD9E8C000FC2BD4 /* PBXContainerItemProxy */;
+		};
+		F40FF5F62CD9E8C000FC2BD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40FF5D92CD9E8BB00FC2BD4 /* sqalpha */;
+			targetProxy = F40FF5F52CD9E8C000FC2BD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F40FF5FC2CD9E8C000FC2BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F40FF5FD2CD9E8C000FC2BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F40FF5FF2CD9E8C000FC2BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sqalpha/sqalpha.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sqalpha/Preview Content\"";
+				DEVELOPMENT_TEAM = 4G2Y2YM8R2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sqalpha/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app uses your step count to help you level up and track your fitness progress in the Sidequest game.\n";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SideQuest.sqalpha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F40FF6002CD9E8C000FC2BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sqalpha/sqalpha.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sqalpha/Preview Content\"";
+				DEVELOPMENT_TEAM = 4G2Y2YM8R2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sqalpha/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app uses your step count to help you level up and track your fitness progress in the Sidequest game.\n";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SideQuest.sqalpha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F40FF6022CD9E8C000FC2BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G2Y2YM8R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SideQuest.sqalphaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sqalpha.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sqalpha";
+			};
+			name = Debug;
+		};
+		F40FF6032CD9E8C000FC2BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G2Y2YM8R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SideQuest.sqalphaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sqalpha.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sqalpha";
+			};
+			name = Release;
+		};
+		F40FF6052CD9E8C000FC2BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G2Y2YM8R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SideQuest.sqalphaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sqalpha;
+			};
+			name = Debug;
+		};
+		F40FF6062CD9E8C000FC2BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G2Y2YM8R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SideQuest.sqalphaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sqalpha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F40FF5D52CD9E8BB00FC2BD4 /* Build configuration list for PBXProject "sqalpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40FF5FC2CD9E8C000FC2BD4 /* Debug */,
+				F40FF5FD2CD9E8C000FC2BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40FF5FE2CD9E8C000FC2BD4 /* Build configuration list for PBXNativeTarget "sqalpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40FF5FF2CD9E8C000FC2BD4 /* Debug */,
+				F40FF6002CD9E8C000FC2BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40FF6012CD9E8C000FC2BD4 /* Build configuration list for PBXNativeTarget "sqalphaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40FF6022CD9E8C000FC2BD4 /* Debug */,
+				F40FF6032CD9E8C000FC2BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40FF6042CD9E8C000FC2BD4 /* Build configuration list for PBXNativeTarget "sqalphaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40FF6052CD9E8C000FC2BD4 /* Debug */,
+				F40FF6062CD9E8C000FC2BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F40FF5D22CD9E8BB00FC2BD4 /* Project object */;
+}

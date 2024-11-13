@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>This app uses HealthKit to update your health and fitness progress.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>This app uses HealthKit to track your steps and activity levels.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Silkscreen-Regular.ttf</string>
+		<string>Silkscreen-Bold.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+</dict>
+</plist>
